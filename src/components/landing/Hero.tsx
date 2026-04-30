@@ -19,11 +19,11 @@ export function Hero() {
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-xl">
-              Gunakan AI untuk otomatis mencatat pengeluaranmu tanpa input manual. Tulis seperti chat, biar AI yang rapikan jadi tabel & ringkasan.
+              Pengeluaran & pemasukan langsung tercatat otomatis dengan AI. Tulis seperti chat, biar AI yang rapikan jadi tabel, dashboard, dan ringkasan.
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
               <Button variant="hero" size="xl">
-                Coba Sekarang <ArrowRight className="h-4 w-4" />
+                Coba Gratis <ArrowRight className="h-4 w-4" />
               </Button>
               <Button variant="outline" size="xl">Lihat Demo</Button>
             </div>

@@ -1,10 +1,13 @@
-import { MessageCircle, Tags, BarChart3, LayoutDashboard } from "lucide-react";
+import { MessageCircle, Tags, Wallet, LayoutDashboard, Pencil, History, Filter } from "lucide-react";
 
 const features = [
   { icon: MessageCircle, title: "Natural Language Input", desc: "Tulis pengeluaran kayak chat ke temen — gak perlu form ribet." },
   { icon: Tags, title: "Auto Categorization", desc: "AI otomatis kelompokin ke makanan, transport, hiburan, dll." },
-  { icon: BarChart3, title: "Smart Summary", desc: "Ringkasan harian, mingguan, bulanan dalam sekejap." },
-  { icon: LayoutDashboard, title: "Clean Dashboard", desc: "Tampilan rapi & minimalis biar enak dilihat tiap hari." },
+  { icon: Wallet, title: "Income & Expense Tracking", desc: "Catat pemasukan dan pengeluaran dalam satu tempat." },
+  { icon: LayoutDashboard, title: "Smart Dashboard", desc: "Saldo, tren, dan kategori semua tampil rapi di satu layar." },
+  { icon: Pencil, title: "Edit & Delete Transactions", desc: "Salah catat? Tinggal edit atau hapus dalam sekali klik." },
+  { icon: History, title: "History Tracking", desc: "Setiap perubahan tercatat lengkap dengan timestamp." },
+  { icon: Filter, title: "Advanced Filters", desc: "Filter by tanggal, kategori, atau tipe transaksi." },
 ];
 
 export function Features() {
