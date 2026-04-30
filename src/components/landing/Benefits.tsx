@@ -1,8 +1,8 @@
-import { Zap, MousePointerOff, GraduationCap, Clock } from "lucide-react";
+import { Zap, MousePointer2Off, GraduationCap, Clock } from "lucide-react";
 
 const benefits = [
   { icon: Zap, title: "Lebih cepat dari Excel", desc: "Catat dalam detik, bukan menit." },
-  { icon: MousePointerOff, title: "Tanpa input manual", desc: "Gak perlu pilih dropdown atau isi kolom." },
+  { icon: MousePointer2Off, title: "Tanpa input manual", desc: "Gak perlu pilih dropdown atau isi kolom." },
   { icon: GraduationCap, title: "Cocok untuk pemula", desc: "Gak butuh pengetahuan finansial." },
   { icon: Clock, title: "Hemat waktu", desc: "Lebih banyak waktu buat hal yang penting." },
 ];
