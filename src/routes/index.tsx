@@ -4,6 +4,7 @@ import { Hero } from "@/components/landing/Hero";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Features } from "@/components/landing/Features";
 import { Demo } from "@/components/landing/Demo";
+import { Dashboard } from "@/components/landing/Dashboard";
 import { Benefits } from "@/components/landing/Benefits";
 import { CTA } from "@/components/landing/CTA";
 import { Footer } from "@/components/landing/Footer";
@@ -29,6 +30,7 @@ function Index() {
         <HowItWorks />
         <Features />
         <Demo />
+        <Dashboard />
         <Benefits />
         <CTA />
       </main>

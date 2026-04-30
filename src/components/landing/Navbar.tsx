@@ -15,9 +15,10 @@ export function Navbar() {
           <a href="#cara" className="hover:text-foreground transition-colors">Cara Kerja</a>
           <a href="#fitur" className="hover:text-foreground transition-colors">Fitur</a>
           <a href="#demo" className="hover:text-foreground transition-colors">Demo</a>
+          <a href="#dashboard" className="hover:text-foreground transition-colors">Dashboard</a>
           <a href="#manfaat" className="hover:text-foreground transition-colors">Manfaat</a>
         </nav>
-        <Button variant="hero" size="sm">Coba Sekarang</Button>
+        <Button variant="hero" size="sm">Coba Gratis</Button>
       </div>
     </header>
   );
